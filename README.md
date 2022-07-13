@@ -6,3 +6,8 @@ BUild on php  install wamp server or xampp server and move this file to www fold
 ->go to browser the type http://localhost/filename.php
 
 😂😂😂😂end joy your favourites 
+
+
+==============//=============
+if Your favourites is greater then 10k then in for loop increase  the valu of ten 
+e.g if favourite is 5k the replace 10 with 5 but for safety and avoid missing of files give value 6 or 7 ok
