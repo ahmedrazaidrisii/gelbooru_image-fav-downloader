@@ -3,7 +3,7 @@ set_time_limit(0);
 ini_set('memory_limit', '1024M');
 $dir_files = scandir(".");
 for ($i = 0; $i < 10; $i++) {
-   $data = file_get_contents("https://gelbooru.com/index.php?page=dapi&s=post&q=index&json=1&limit=1000&pid=$i&tags=fav:785139");
+   $data = file_get_contents("https://gelbooru.com/index.php?page=dapi&s=post&q=index&json=1&limit=1000&pid=$i&tags=fav:youruser_id");
    $data = json_decode($data, true);
    $x = 0;
    foreach ($data as $key => $val) { //to select between to array and enter into [post] array 
